@@ -24,7 +24,7 @@ route.post('/', adminsOnly, async (req, res) => {
     const newShopItem = await shopItemsCollection.create({
         name,
         description,
-        price,
+        price, 
         isInStock
     })
 
